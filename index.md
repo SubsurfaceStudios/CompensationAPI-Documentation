@@ -21,7 +21,7 @@ the same way that the game itself or our website would.
 
 <ul>
     <li>
-        <a href="./auth/">Authentication</a>  
+        <a href="./auth/">Authentication</a><br>
         <a href="./img/">Images</a>  
     </li>
 </ul>
