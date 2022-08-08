@@ -64,7 +64,7 @@ The server (should) respond with:
 This example request is used if you have enabled Two Factor Authentication on your account, and involves TOTP codes.  
 <strong>Wherever we use `<TOTP>`, insert your TOTP code from your authenticator app.</strong>
 
-<details>
+</details>
 <summary>Request</summary>
 
 ```
