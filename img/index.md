@@ -1,3 +1,4 @@
+# Compensation API Documentation
 # Image API  
   
 There are three main endpoints in the `/img` section.  
@@ -38,6 +39,9 @@ Used to fetch an image from the Compensation API.
 You can use the `base64` query parameter to fetch in a base-64 encoded format instead of a standard one.
 
 ## Example Request - Standard
+<details>
+<summary>Request</summary>
+
 ```
 URL:
 https://api.compensationvr.tk/img/0/
@@ -45,8 +49,16 @@ https://api.compensationvr.tk/img/0/
 Headers: N/A
 Body: N/A
 ```
-## Example Response - Standard
+</details>
+
+The server should respond with:
+
+<details>
+<summary>Response</summary>
+
 <img src="https://api.compensationvr.tk/img/1/">
+
+</details>
 
 ## Example Request - Base64
 ```
@@ -57,13 +69,17 @@ Headers: N/A
 Body: N/A
 ```
 # Image Metadata Fetch
-## Relative Link:
+## Relative Address:
 `/img/<image_id>/info`
 ## Description
 Used to fetch image metadata from the Compensation API.
 All data is JSON-formatted.
 
 ## Example Request
+
+<details>
+<summary>Request</summary>
+
 ```
 URL:
 https://api.compensationvr.tk/img/1/info
@@ -71,7 +87,14 @@ https://api.compensationvr.tk/img/1/info
 Headers: N/A
 Body: N/A
 ```
-## Example Response
+
+</details>
+
+The server (should) respond with:
+
+<details>
+<summary>Response</summary>
+
 ```json
 {
   "_id": 1,
@@ -103,3 +126,5 @@ Body: N/A
   }
 }
 ```
+
+</details>
