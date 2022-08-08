@@ -32,7 +32,7 @@ Content-Type: application/json
 Content-Length: <length>
 
 Body:
-```
+```  
 ```json
 {
     "username": "<username>",
@@ -127,7 +127,7 @@ Content-Type: application/json
 Content-Length: <length>
 
 Body:
-```
+```  
 ```json
 {
     "username": "<username>",
