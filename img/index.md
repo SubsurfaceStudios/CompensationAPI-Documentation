@@ -10,9 +10,11 @@ Used to upload an image to the Compensation API servers.
 Images must be Base64 encoded then placed in the body of the request.  
 Multiple query parameters are required:  
   
-+ room_id
-+ others
-+ tags
+<ul>
+    <li>room_id</li>
+    <li>others</li>
+    <li>tags</li>
+</ul>
   
 ## Example Request  
   
