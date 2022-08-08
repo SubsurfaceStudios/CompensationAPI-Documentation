@@ -1,4 +1,4 @@
-# Welcome to the Compensation VR API documentation  
+# Compensation API Documentation
 Here you can find information about the entirety of the Compensation VR API, with (almost) no exceptions.  
 You can find the source code of the API [here](https://github.com/bubby932/VigorXRAPI)  
 
@@ -16,3 +16,11 @@ the same way that the game itself or our website would.
         <li>(Coming Soon) Manually downloading, modifying, and reuploading room saves to allow for more advanced operations.</li>
     </ul>
 </details>  
+
+## Pages
+
+<ul>
+    <li>
+        <a href="./img/">Images</a>
+    </li>
+</ul>
